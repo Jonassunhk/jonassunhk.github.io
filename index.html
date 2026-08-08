@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jonas Sun</title>
+  <meta name="description" content="Personal website of Jonas Sun">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ======= Top bar: name + section nav ======= -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="identity">
+        <a href="#top" class="site-name">Xiangzhou (Jonas) Sun</a>
+        <p class="site-subtitle">MIT EECS and Math</p>
+      </div>
+      <nav class="site-nav">
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#blog">Blog</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ======= Hero / intro ======= -->
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Hi, I'm Jonas!</h1>
+        <p class="hero-blurb">
+          I am an undergrad at MIT passionate about physical AI. My goal is to create general robotics by developing AI that can perceive, reason, and act in our physical world. 
+        </p>
+        <div class="button-row">
+          <a class="pill-button" href="mailto:jonassun@mit.edu">Email ✉️</a>
+          <a class="pill-button" href="https://scholar.google.com/citations?user=B__SgkoAAAAJ&amp;hl=en" target="_blank" rel="noopener">Scholar 🎓</a>
+          <a class="pill-button" href="https://www.linkedin.com/in/jonassun2006/" target="_blank" rel="noopener">LinkedIn 💼</a>
+          <a class="pill-button" href="assets/cv.pdf" target="_blank" rel="noopener">CV 📄</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="assets/photo.png" alt="Jonas Sun" class="portrait">
+      </div>
+    </section>
+
+    <!-- ======= Research ======= -->
+    <section id="research" class="content-section">
+      <h2>Research</h2>
+      <p class="section-lead">My research focuses on physical reasoning of AI, robotics, and world models.</p>
+
+      <article class="pub-entry">
+        <video class="pub-thumb pub-thumb-video" src="assets/foveation_visual.mp4" autoplay loop muted playsinline></video>
+        <div class="pub-details">
+          <h3>Using Motion-guided Foveation to Improve Physical Prediction in Latent Representation Video Models</h3>
+          <p class="pub-authors"><strong>Xiangzhou Sun</strong>, Nancy Kanwisher, RT Pramod</p>
+          <p class="pub-venue"><strong>CCN</strong> 2026 · <span class="pub-award">🏅 Spotlight (top 10%) and Contributed Talk</span></p>
+          <p class="pub-links">
+            <a href="https://openreview.net/forum?id=QFO8NpmUxk" target="_blank" rel="noopener">OpenReview</a>
+          </p>
+        </div>
+      </article>
+
+      <article class="pub-entry">
+        <video class="pub-thumb pub-thumb-video" src="assets/robot_visual.mp4" autoplay loop muted playsinline></video>
+        <div class="pub-details">
+          <h3>Physically Grounded Arena for Evaluating Model Intelligence</h3>
+          <p class="pub-authors">Authors withheld during double-blind review</p>
+          <p class="pub-venue">Submitted to <strong>NeurIPS</strong> 2026</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- ======= Projects ======= -->
+    <section id="projects" class="content-section">
+      <h2>Projects</h2>
+      <p class="section-lead">Selected side projects and open-source work.</p>
+
+      <div class="project-grid">
+        <div class="project-card">
+          <div class="project-media">
+            <video src="assets/gazelink_visual.mp4" autoplay loop muted playsinline></video>
+          </div>
+          <div class="project-details">
+            <h3>Gaze Link</h3>
+            <p>AI-powered eye communication device for ALS patients.</p>
+            <p class="project-award">🏆 Won $50K at the Google Gemini API Competition</p>
+            <p class="project-links">
+              <a href="https://github.com/Jonassunhk/Gaze-Link" target="_blank" rel="noopener">GitHub</a>
+              <a href="https://intlpress.com/JDetail/1970050784297603073" target="_blank" rel="noopener">Paper</a>
+              <a href="https://www.youtube.com/watch?v=uFBhv3SEFXk" target="_blank" rel="noopener">Video</a>
+            </p>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-media">
+            <video src="assets/hexapod_visual.mp4" autoplay loop muted playsinline></video>
+          </div>
+          <div class="project-details">
+            <h3>Hexapod</h3>
+            <p>I led a build team to build a hexapod, including the CAD, circuits, signal processing, and controls (inverse kinematics).</p>
+            <p class="project-links">
+              <a href="https://humantechclub.mit.edu/" target="_blank" rel="noopener">Website</a>
+            </p>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-media">
+            <video src="assets/spirit_visual.mp4" autoplay loop muted playsinline></video>
+          </div>
+          <div class="project-details">
+            <h3>SPIRIT</h3>
+            <p>A Unity game I built myself using 3D modelling, animation, C# programming, advanced rendering, and worldbuilding.</p>
+            <p class="project-links">
+              <a href="https://www.youtube.com/watch?v=VHndFIgX2vk" target="_blank" rel="noopener">Video</a>
+              <a href="https://xiangzhousun.itch.io/" target="_blank" rel="noopener">Game</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Blog ======= -->
+    <section id="blog" class="content-section">
+      <h2>Blog</h2>
+      <p class="section-lead">Stay tuned!</p>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Jonas Sun</p>
+  </footer>
+
+</body>
+</html>
