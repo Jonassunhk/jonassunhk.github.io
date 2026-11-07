@@ -219,6 +219,15 @@ a:hover {
   object-fit: cover;
 }
 
+.pub-thumb-img {
+  height: auto;
+  object-fit: cover;
+}
+
+.pub-note {
+  font-size: 0.9rem;
+}
+
 .pub-details h3 {
   font-size: 1.2rem;
   line-height: 1.35;
